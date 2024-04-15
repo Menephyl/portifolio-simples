@@ -95,3 +95,8 @@ font-family: "Jacquard",sans-serif;
     font-size: 26px;
     transition:  0.3s;
 }
+.home .redes-sociais a i:hover{
+    color: #0000ff;
+    border: 1px solid #0000ff;
+    transform: scale(1);
+}
