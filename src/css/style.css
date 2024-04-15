@@ -54,7 +54,7 @@ font-family: "Jacquard",sans-serif;
     align-items: center;
     gap:50px;
 }
-.home .informacoes{
+.home .info{
     background-color: black;
     display: flex;
     flex-direction: column;
