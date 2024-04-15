@@ -22,7 +22,7 @@ border-radius: 50%;
 border: 2px solid #fff;
 text-align: center;
 line-height: 55px;
-font-family: "Jacquard";
+font-family: "Jacquard",sans-serif;
 }
 .cabecalho .logo:hover{
     text-decoration: underline;
