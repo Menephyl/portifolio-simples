@@ -36,5 +36,5 @@ font-family: "Jacquard",sans-serif;
 }
 .cabecalho .menu li a{
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
