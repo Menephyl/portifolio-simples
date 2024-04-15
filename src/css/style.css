@@ -25,5 +25,5 @@ line-height: 55px;
 font-family: "Jacquard",sans-serif;
 }
 .cabecalho .logo:hover{
-    text-decoration: underline;
+    text-decoration:  1px underline;
 }
