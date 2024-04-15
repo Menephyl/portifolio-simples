@@ -14,4 +14,7 @@
         align-items: center;
 
     }
+    .projetos .container-projetos{
+        padding:  0 30px;
+    }
 }
