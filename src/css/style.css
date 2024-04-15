@@ -93,4 +93,5 @@ font-family: "Jacquard",sans-serif;
     padding: 10px;
     text-align: center;
     font-size: 26px;
+    transition:  0.3s;
 }
