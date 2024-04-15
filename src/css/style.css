@@ -31,3 +31,6 @@ font-family: "Jacquard",sans-serif;
     color: aqua;
     border: 2px solid aqua;
 }
+.cabecalho .menu ul{
+    background-color: red;
+}
