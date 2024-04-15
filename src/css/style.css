@@ -20,4 +20,8 @@ width: 65px;
 height: 65px;
 border-radius: 50%;
 border: 2px solid #fff;
+
+}
+.cabecalho .logo:hover{
+    text-decoration: underline;
 }
