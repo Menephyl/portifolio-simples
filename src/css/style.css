@@ -59,4 +59,7 @@ font-family: "Jacquard",sans-serif;
     display: flex;
     flex-direction: column;
     gap:15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
 }
