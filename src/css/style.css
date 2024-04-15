@@ -100,7 +100,7 @@ font-family: "Jacquard",sans-serif;
     border: 1px solid #0000ff;
     transform: scale(1);
 }
-.home .container-foto .foto{
+.home .container-foto .foto-sombra-interna{
     background-color: red;
 }
 /* .home .container-foto img{
