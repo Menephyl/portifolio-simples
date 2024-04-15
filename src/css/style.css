@@ -39,3 +39,7 @@ font-family: "Jacquard",sans-serif;
     text-transform: capitalize;
     padding: 10px 20px;
 }
+.cabecalho .menu li a:hover{
+    background-color: aquamarine;
+    color: #fff;
+}
