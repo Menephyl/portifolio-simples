@@ -15,5 +15,7 @@ header{
    padding: 30px 15px;
 }
 .cabecalho .logo{
-
+background: orange;
+width: 65px;
+height: 65px;
 }
