@@ -102,8 +102,10 @@ font-family: "Jacquard",sans-serif;
 }
 .home .container-foto .foto{
     background-color: red;
+    max-width: 450px;
+    border-radius: 50%;
 }
-/* .home .container-foto img{
+.home .container-foto img{
     width: 100%;
-    border
-} */
+    border-radius: 50%;
+}
