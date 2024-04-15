@@ -38,8 +38,17 @@ font-family: "Jacquard",sans-serif;
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s ease;
 }
 .cabecalho .menu li a:hover{
     background-color: aquamarine;
     color: #fff;
+}
+
+.home{ 
+    /* preenche a altura da tela */
+    background-color: skyblue;
+    display: flex;
+    min-height: 100vh;
 }
