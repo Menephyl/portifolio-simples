@@ -27,3 +27,7 @@ font-family: "Jacquard",sans-serif;
 .cabecalho .logo:hover{
     text-decoration:  1px underline;
 }
+.cabecalho a:hover .logo{
+    color: aqua;
+    border: 2px solid aqua;
+}
