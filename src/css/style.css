@@ -51,4 +51,5 @@ font-family: "Jacquard",sans-serif;
     background-color: skyblue;
     display: flex;
     min-height: calc(100vh - 125px);
+    align-items: center;
 }
