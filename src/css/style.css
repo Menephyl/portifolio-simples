@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
     max-width: 1120px;
 }
-.cabecalho{
+header{
     background-color: #0000ff;
     display: flex;
     justify-content: space-between;
