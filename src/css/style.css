@@ -50,5 +50,5 @@ font-family: "Jacquard",sans-serif;
     /* preenche a altura da tela */
     background-color: skyblue;
     display: flex;
-    min-height: 100vh;
+    min-height: calc(100vh - 125px);
 }
