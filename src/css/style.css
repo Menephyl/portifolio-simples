@@ -53,6 +53,7 @@ font-family: "Jacquard",sans-serif;
     min-height: calc(100vh - 125px);
     align-items: center;
     gap:50px;
+    justify-content: space-between;
 }
 .home .info{
     background-color: black;
@@ -61,5 +62,7 @@ font-family: "Jacquard",sans-serif;
     gap:15px;
     letter-spacing: 2px;
     padding: 0 15px;
-    max-width: 50%;
+    max-width: 50%; 
+    /* medidas relativas */
+ 
 }
