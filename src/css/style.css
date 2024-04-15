@@ -54,3 +54,8 @@ font-family: "Jacquard",sans-serif;
     align-items: center;
     gap:50px;
 }
+.home .informacoes{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
