@@ -1,21 +1,24 @@
 html{
     color: #fff;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #282828;
     font: 400 "Poppins",sans-serif;
     margin: 0 auto;
     max-width: 1120px;
+    background: linear-gradient(150deg, black, #4790f0);
+    background-size: 120% 120%;
+
 }
 header{
-    background-color: #0000ff;
     display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 30px 15px;
 }
 .cabecalho .logo{
-background: orange;
+background: #000;
 width: 65px;
 height: 65px;
 border-radius: 50%;
@@ -23,6 +26,7 @@ border: 2px solid #fff;
 text-align: center;
 line-height: 55px;
 font-family: "Jacquard",sans-serif;
+transition: 0.5s ;
 }
 .cabecalho .logo:hover{
     text-decoration:  1px underline;
@@ -31,15 +35,13 @@ font-family: "Jacquard",sans-serif;
     color: aqua;
     border: 2px solid aqua;
 }
-.cabecalho .menu ul{
-    background-color: red;
-}
+
 .cabecalho .menu li a{
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
     border-radius: 50px;
-    transition: 0.2s ease;
+    
 }
 .cabecalho .menu li a:hover{
     background-color: aquamarine;
@@ -48,7 +50,6 @@ font-family: "Jacquard",sans-serif;
 
 .home{ 
     /* preenche a altura da tela */
-    background-color: skyblue;
     display: flex;
     min-height: calc(100vh - 125px);
     align-items: center;
@@ -56,7 +57,6 @@ font-family: "Jacquard",sans-serif;
     justify-content: space-between;
 }
 .home .info{
-    background-color: black;
     display: flex;
     flex-direction: column;
     gap:15px;
@@ -73,7 +73,7 @@ font-family: "Jacquard",sans-serif;
 }
 .home .info p{
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     margin-bottom: 10px;
 
 }
@@ -81,7 +81,7 @@ font-family: "Jacquard",sans-serif;
     display: flex;
     gap: 20px;
     margin-top: 20px;
-    background-color: red;
+  
 
 
 }
@@ -98,14 +98,109 @@ font-family: "Jacquard",sans-serif;
 .home .redes-sociais a i:hover{
     color: #0000ff;
     border: 1px solid #0000ff;
-    transform: scale(1);
+    transform: scale(1.1);
 }
-.home .container-foto .foto{
-    background-color: red;
-    max-width: 450px;
+.home .container-foto .foto{  
+    width: 100%;
     border-radius: 50%;
 }
 .home .container-foto img{
     width: 100%;
     border-radius: 50%;
+    
+}
+.home .foto.sombra-interna{
+    background: linear-gradient(to right, rgb(2, 2, 42), rgb(29, 144, 167), rgb(82, 172, 213));
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.projetos{
+    padding: 70px 0 70px;
+}
+.projetos .titulo{
+ text-align: center;
+padding: 60px;
+font-size: 45px;
+font-weight: 500;
+text-transform: uppercase;
+}
+.projetos .container-projetos{
+    /* background-color: rgba(30, 164, 236, 0.998) ; */
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.projetos .projeto{
+    max-width: 260px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+
+}
+.projetos .projeto.ativo{
+    display: block;
+}
+.projetos .projeto img{
+    height: 100%;
+}
+.projetos .projeto h3{
+    background-color: black;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.projetos .projeto .informacoes-projeto{
+    background-color: #040203;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.projetos .container-projetos .projeto:hover .informacoes-projeto{ 
+opacity: 1;
+background: #000;
+}
+.projetos .btn-mostrar-projetos{
+    background: none;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 60px;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+.projetos .btn-mostrar-projetos:hover{
+    background-color: #1212cb;
+    transition:0.3s;
+}
+.projetos .btn-mostrar-projetos.remover{
+    display: none;
+
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
