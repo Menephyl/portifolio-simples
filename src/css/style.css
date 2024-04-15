@@ -34,3 +34,7 @@ font-family: "Jacquard",sans-serif;
 .cabecalho .menu ul{
     background-color: red;
 }
+.cabecalho .menu li a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
