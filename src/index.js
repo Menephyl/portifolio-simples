@@ -14,9 +14,16 @@ TESTE DE MESA LÓGICA
 */
 
 const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
-console.log (botaoMostrarProjetos);
-botaoMostrarProjetos.addEventListener('click',()=>{
-    console.log('teste');
+
+const projetosInvativos = document.querySelectorAll('.projeto:not(.ativo)');
+console.log(projetosInativos);
+botaoMostrarProjetos.addEventListener('click',() => {
+  //display none -> block
+  projetosInativos.forEach(projetoInativo => {
+    console.log(projetoInativo)
+    projetoInativo.classList.add('ativo')
+  })
+   
 })
-botao
+
 
