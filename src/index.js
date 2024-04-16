@@ -18,4 +18,5 @@ console.log (botaoMostrarProjetos);
 botaoMostrarProjetos.addEventListener('click',()=>{
     console.log('teste');
 })
+botao
 
