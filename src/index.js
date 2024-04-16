@@ -12,3 +12,7 @@ TESTE DE MESA LÓGICA
 
 
 */
+
+const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos')
+console.log (botaoMostrarProjetos);
+
