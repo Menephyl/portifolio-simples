@@ -11,9 +11,7 @@
 
 
     }
-    small{
-        margin-left:10vw;
-    }
+   
     .home .info{
         max-width: 100%;
         text-align: center;
@@ -23,13 +21,9 @@
     .projetos .container-projetos{
         padding:  0 30px;
     }
-    small{
-        margin-left:10vw;
-    }
+   
 }
-small{
-    margin-left:10vw;
-}
+
 @media(max-width:425px){
     .home .info h1{
         font-size: 25px;
@@ -45,7 +39,5 @@ small{
     .projetos{
         padding: 30px;
     }
-    small{
-        margin-left:8vw;
-    }
+   
 }
