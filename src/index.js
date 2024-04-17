@@ -16,15 +16,19 @@ TESTE DE MESA LÓGICA
 const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
 const projetosInativos = document.querySelectorAll('.projeto:not(ativo)')
 
-
-
-botaoMostrarProjetos.addEventListener('click',() => {
-projetosInativos.forEach(projetoInativo =>{
-projetoInativo.classList.add('ativo')
-  
-    })
-botaoMostrarProjetos.classList.add('remover')
+botaoMostrarProjetos.addEventListener('click',() =>{
+    mostrarMaisProjetos()
+    esconderBotao()
 })
 
+function esconderBotao() {
+    botaoMostrarProjetos.classList.add('remover')
 
-
+}
+function mostrarMaisProjetos(){
+    projetosInativos.forEach(projetoInativo =>{
+        projetosInativos.forEach(projetoInativo=>{
+            projetoInativo.classList.add('ativo')
+        })
+    })
+}
