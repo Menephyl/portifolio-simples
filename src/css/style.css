@@ -142,6 +142,7 @@ text-transform: uppercase;
 }
 .projetos .projeto img{
     height: 100%;
+    border-radius: 10px;
 }
 .projetos .projeto h3{
     background-color: black;
@@ -161,6 +162,7 @@ text-transform: uppercase;
     font-weight: 600;
     opacity: 0;
     transition: 0.3s;
+    border-radius: 10px;
 }
 .projetos .container-projetos .projeto:hover .informacoes-projetos{ 
 opacity: 0.7;
